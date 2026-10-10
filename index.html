@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CADAgent — 말로 고치는 CAD 도면</title>
+  <meta name="description" content="CADAgent는 DWG·DXF 도면을 읽고, 요청한 대로 찾아서 고치는 AI 프로그램입니다. 쓰던 CAD와 연결하고, 건설기준과 공공데이터로 확인합니다. 출시 준비 중입니다.">
+  <meta property="og:title" content="CADAgent — 말로 고치는 CAD 도면">
+  <meta property="og:description" content="DWG·DXF 도면을 읽고 요청한 대로 고칩니다. 출시 준비 중입니다.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./"><img src="favicon.svg" alt="">CADAgent</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <span class="badge">출시 준비 중</span>
+        <h1>도면을 말로 고칩니다</h1>
+        <p>CADAgent는 DWG·DXF 도면을 읽고, "013-PP-4001 라인을 65A로 바꿔 줘"처럼 요청하면
+          해당 객체를 찾아 고치는 Windows 프로그램입니다. 무엇을 바꿀지 먼저 보여 주고,
+          저장은 사용자가 확인한 뒤에만 합니다.</p>
+      </div>
+    </section>
+
+    <section class="wrap features" aria-label="주요 기능">
+      <article class="card">
+        <span class="mark">DWG · DXF</span>
+        <h2>도면을 읽고 고치기</h2>
+        <p>도면 안의 글자, 치수, 블록 속 내용까지 찾아 읽고 고칩니다.
+          라인 번호 검토, 중복 객체 정리, 사이즈 집계 같은 반복 작업을 맡기세요.</p>
+      </article>
+      <article class="card">
+        <span class="mark">여러 도면</span>
+        <h2>여러 장을 한 번에</h2>
+        <p>P&amp;ID처럼 여러 장에 이어지는 라인을 따라가며 함께 고칩니다.
+          계획을 먼저 보여 주고, 도면마다 확인을 받은 뒤 저장합니다.</p>
+      </article>
+      <article class="card">
+        <span class="mark">Pro · CAD 연동</span>
+        <h2>쓰던 CAD와 함께</h2>
+        <p>AutoCAD, ZWCAD, GstarCAD, CADian에 연결해, 열려 있는 도면에서 바로 작업합니다.</p>
+      </article>
+      <article class="card">
+        <span class="mark">Pro · 기준과 공공데이터</span>
+        <h2>기준과 맞춰 보기</h2>
+        <p>국가건설기준(KDS·KCS), 법령, 건축물대장, 조달청 가격정보를 직접 찾아
+          도면 내용과 대조합니다.</p>
+      </article>
+    </section>
+
+    <section class="pricing" aria-labelledby="pricing-title">
+      <div class="wrap">
+        <h2 id="pricing-title">요금</h2>
+        <p class="pricing-lead">Google 계정으로 로그인하면 무료 체험부터 시작합니다.</p>
+        <div class="plans">
+          <article class="plan">
+            <h3>무료 체험</h3>
+            <p class="price">$0</p>
+            <ul>
+              <li>정해진 체험 사용량(계정당 한 번)</li>
+              <li>도면 읽기·고치기, 문서 읽기</li>
+            </ul>
+          </article>
+          <article class="plan pro">
+            <h3>Pro</h3>
+            <p class="price">$20 <small>/ 월</small></p>
+            <p class="price">$200 <small>/ 년</small></p>
+            <ul>
+              <li>CAD 연동, 기준·공공데이터 조회</li>
+              <li>5시간·7일 단위로 다시 채워지는 사용량</li>
+              <li>PC 1대에서 동시 사용</li>
+            </ul>
+          </article>
+          <article class="plan">
+            <h3>Business</h3>
+            <p class="price">문의</p>
+            <ul>
+              <li>사내 설치(온프레미스)</li>
+              <li>계약으로 정하는 사용량</li>
+            </ul>
+          </article>
+        </div>
+        <p class="fine">결제는 판매 대행사 Paddle이 처리하며, 세금은 결제 화면에 표시됩니다.
+          언제든 해지할 수 있고, 해지하면 이미 결제한 기간까지 사용합니다.
+          자세한 내용은 <a href="refund.html">환불 정책</a>을 보세요.</p>
+      </div>
+    </section>
+
+    <section class="status">
+      <div class="wrap">
+        <h2>지금은 출시 준비 중입니다</h2>
+        <p>궁금한 점이나 도입 문의는 메일로 보내 주세요.</p>
+        <a class="mail" href="mailto:yky5464@gmail.com">yky5464@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <nav aria-label="정책">
+        <a href="terms.html">이용약관</a>
+        <a href="privacy.html">개인정보 처리방침</a>
+        <a href="refund.html">환불 정책</a>
+      </nav>
+      &copy; CADAgent
+    </div>
+  </footer>
+</body>
+</html>
