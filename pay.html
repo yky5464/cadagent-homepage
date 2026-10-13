@@ -52,10 +52,11 @@
   </footer>
 
   <script>
-    // Filled in when the Paddle account exists. The client-side token is
-    // public by design (Paddle: "client-side token"); the API key never
-    // comes near this page.
-    var PADDLE = { environment: "sandbox", token: "" };
+    // SANDBOX for the end-to-end test (2026-10-14; the license server sells
+    // to its named testers only). The client-side token is public by design
+    // (Paddle: "client-side token"); the API key never comes near this page.
+    // Swap both for the live values when payments open.
+    var PADDLE = { environment: "sandbox", token: "test_ce072b0d4efc19ba68c97bb397d" };
   </script>
   <script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
   <script>
