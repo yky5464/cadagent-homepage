@@ -37,6 +37,9 @@ a { color: var(--accent); }
 .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 700;
          font-size: 18px; color: var(--ink); text-decoration: none; }
 .brand img { width: 28px; height: 28px; }
+.langs { margin-left: auto; display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 14px; }
+.langs a { color: var(--muted); text-decoration: none; }
+.langs a[aria-current] { color: var(--ink); font-weight: 700; }
 
 /* hero */
 .hero { padding: 72px 0 56px; }
