@@ -7,6 +7,9 @@ settings, after the domain is verified in the account's Pages settings. It
 changes before the official launch.
 
 - `index.html` — the homepage (Korean): features, prices, contact.
+- `en/index.html` — the same in English, for readers outside Korea (the
+  Autodesk Developer Network application among them), with the trademark
+  notice for the CAD names it mentions.
 - `terms.html`, `privacy.html`, `refund.html` — placeholders, like
   DOCAgent's. The drafts are kept off this public site until they are final:
   they live on an owner-only page behind Cloudflare Access. Paddle's website

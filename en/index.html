@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CADAgent — Edit CAD drawings by asking</title>
+  <meta name="description" content="CADAgent is a generative AI program for Windows that reads DWG and DXF drawings and finds and edits what you ask for, in the drawing open in AutoCAD or on its own. In preparation for release.">
+  <meta property="og:title" content="CADAgent — Edit CAD drawings by asking">
+  <meta property="og:description" content="Reads DWG and DXF drawings and edits what you ask for. In preparation for release.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./"><img src="../favicon.svg" alt="">CADAgent</a>
+      <nav class="langs" aria-label="Language">
+        <a href="../" lang="ko">한국어</a>
+        <a href="./" lang="en" aria-current="page">English</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <span class="badge">In preparation for release</span>
+        <h1>Edit CAD drawings by asking</h1>
+        <p>CADAgent is a Windows program that reads DWG and DXF drawings. Ask in plain
+          language, for example "change line 013-PP-4001 to 65A", and its generative AI finds
+          the objects and edits them. It shows what it will change first, and saves only after
+          you confirm. AI can make mistakes, so check the result before you use it.</p>
+      </div>
+    </section>
+
+    <section class="wrap features" aria-label="Features">
+      <article class="card">
+        <span class="mark">DWG · DXF</span>
+        <h2>Read and edit drawings</h2>
+        <p>Finds and reads text, dimensions and the contents of blocks, and edits them.
+          Hand it repetitive work such as checking line numbers, cleaning up duplicate
+          objects or counting sizes.</p>
+      </article>
+      <article class="card">
+        <span class="mark">Multiple sheets</span>
+        <h2>Many sheets at once</h2>
+        <p>Follows a line across the sheets of a set, such as a P&amp;ID, and edits them
+          together. It shows the plan first and asks you to confirm each sheet before saving.</p>
+      </article>
+      <article class="card">
+        <span class="mark">Pro · AutoCAD</span>
+        <h2>In the drawing open in AutoCAD</h2>
+        <p>Connects to AutoCAD on the same PC and works in the drawing you have open, so each
+          change appears in AutoCAD as it is made. If you edit the drawing yourself between
+          requests, CADAgent sees your changes before it continues. ZWCAD, GstarCAD and CADian
+          are supported as well.</p>
+      </article>
+      <article class="card">
+        <span class="mark">Pro · Standards and public data</span>
+        <h2>Check against standards</h2>
+        <p>Looks up the Korean construction standards (KDS · KCS), laws, the building register
+          and public procurement prices, and compares them with what the drawing says.</p>
+      </article>
+    </section>
+
+    <section class="pricing" aria-labelledby="pricing-title">
+      <div class="wrap">
+        <h2 id="pricing-title">Pricing</h2>
+        <p class="pricing-lead">Sign in with a Google account to start with a free trial.</p>
+        <div class="plans">
+          <article class="plan">
+            <h3>Free trial</h3>
+            <p class="price">$0</p>
+            <ul>
+              <li>A fixed trial allowance, once per account</li>
+              <li>Reading and editing drawings, reading documents</li>
+            </ul>
+          </article>
+          <article class="plan pro">
+            <h3>Pro</h3>
+            <p class="price">$20 <small>/ month</small></p>
+            <p class="price">$200 <small>/ year</small></p>
+            <ul>
+              <li>CAD connection, standards and public data</li>
+              <li>An allowance that refills every 5 hours and every 7 days</li>
+              <li>In use on one PC at a time</li>
+            </ul>
+          </article>
+          <article class="plan">
+            <h3>Business</h3>
+            <p class="price">Contact us</p>
+            <ul>
+              <li>Installed inside your company network (on-premises)</li>
+              <li>Usage set by contract</li>
+            </ul>
+          </article>
+        </div>
+        <p class="fine">Payments are handled by our reseller, Paddle, and taxes are shown at
+          checkout. You can cancel at any time and keep using it until the end of the period
+          you paid for. See the <a href="refund.html">refund policy</a>.</p>
+      </div>
+    </section>
+
+    <section class="status">
+      <div class="wrap">
+        <h2>CADAgent is in preparation for release</h2>
+        <p>For questions, partnerships or company use, write to us.</p>
+        <a class="mail" href="mailto:yky5464@gmail.com">yky5464@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <nav aria-label="Policies">
+        <a href="terms.html">Terms of Service</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="refund.html">Refund Policy</a>
+      </nav>
+      <p class="fine">Autodesk and AutoCAD are registered trademarks or trademarks of
+        Autodesk, Inc. in the USA and other countries. ZWCAD, GstarCAD and CADian are
+        trademarks of their respective owners. CADAgent is an independent product and is
+        not affiliated with, sponsored by or endorsed by Autodesk, Inc.</p>
+      &copy; CADAgent
+    </div>
+  </footer>
+</body>
+</html>
